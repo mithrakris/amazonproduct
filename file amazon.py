@@ -12,7 +12,7 @@ def product():
     productlist.write(str(total))
     productlist.write("\n")
     productlist.close()
-def readproduct():
+def amzproduct():
     readproductlist=open("amazon.txt","r")
     product=readproductlist.read()
     seperatelist=product.split("\n")
@@ -33,7 +33,7 @@ def readproduct():
     print(satheesh_total)
     print("satheesh_total bill value")
 product()
-readproduct() 
+amzproduct() 
 
 
 
