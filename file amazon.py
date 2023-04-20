@@ -1,4 +1,4 @@
-def product():
+def items():
     customer_one_mani=int(input("enter the amount purchased by mani"))
     customer_two_logendran=int(input("enter the amount purchased by logendran"))            
     customer_three_satheesh=int(input("enter the amount purchased by satheesh"))
@@ -32,7 +32,7 @@ def amzproduct():
     print("logendran total bill value")
     print(satheesh_total)
     print("satheesh_total bill value")
-product()
+items()
 amzproduct() 
 
 
